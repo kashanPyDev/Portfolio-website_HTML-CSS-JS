@@ -6,6 +6,9 @@
 html{
   scroll-behavior: smooth;
 }
+.fa-heart{
+  color: red;
+}
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3rem;
@@ -810,15 +813,15 @@ img {
   padding: 0 1.5rem;
 }
 
-.portfolio__img {
+ /* .portfolio__img {
   width: 265px;
   border-radius: 0.5rem;
   justify-self: center;
   height: 190%;
-  /* object-fit: cover; */
-  /* background-position: center; */
+  object-fit: cover; 
+  background-position: center;
   background-size: cover;
-}
+}  */
 
 .portfolio__title {
   font-size: var(--h3-font-size);
